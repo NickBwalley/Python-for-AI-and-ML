@@ -65,13 +65,38 @@
 # print(x)
 
 # 8 -- logical operators
-price = 25
-print(price > 10 and price < 30) # if the first and second expression are true it will return true
-print (price > 10 or price < 10 ) # if at least one of the two expressions are true then the result of the expression will be true
-print (not price > 30) # inverse the true
+# price = 25
+# print(price > 10 and price < 30) # if the first and second expression are true it will return true
+# print (price > 10 or price < 10 ) # if at least one of the two expressions are true then the result of the expression will be true
+# print (not price > 30) # inverse the true
 # and (both) are true
 # or ( at least one is true)
 # not ( inverses the value given)
+
+ # 9 -- if statements.
+temperature = 25
+if temperature > 30:
+     print("It's a hot day")
+     print("Drink plenty of water")
+elif temperature > 20: # (20, 30)
+    print("It's a nice day!")
+elif temperature > 10: # (10, 20)
+    print("It's a bit cold")
+else:
+    print("It's cold")
+
+# Exercise for converting weight (lbs) to (kgs) and vice-versa
+weight = float(input("Weight: "))
+unit = input("(K)g or (L)bs:")
+if unit.upper() == "K":
+    converted = weight / 0.45
+    print("Weight in Lbs: " + str(converted))
+else:
+    converted = weight * 0.45
+    print("weight in Kgs: " + str(converted))
+
+
+
 
 
 
