@@ -124,15 +124,20 @@
 # print(len(numbers))
 
 # 13 -- for loops
-numbers = [1, 2, 3, 4, 5]
-for item in numbers:
-    print(item)
+# numbers = [1, 2, 3, 4, 5]
+# for item in numbers:
+#     print(item)
+#
+# i = 0
+# while i < len(numbers):
+#     print(numbers[i])
+#     i+=1
 
-i = 0
-while i < len(numbers):
-    print(numbers[i])
-    i+=1
-
+# 14 -- The range() function
+numbers = range(5, 10) # 5, 6, 7, 8, 9
+numbers = range(5, 10, 2) # 5, 7, 9 jumps in two\s
+for number in numbers:
+    print(number)
 
 
 
