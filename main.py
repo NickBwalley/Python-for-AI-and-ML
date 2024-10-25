@@ -45,13 +45,34 @@
 # print('Python' in course)
 
 # 5 -- arithmetic operators
-print(10+3)
-print(10/3) # returns decimal (3.3333333)
-print(10//3) # returns a whole number (3)
-print(10%3) # returns 1 remainder after dividing 10 by 3
-print(10 ** 3) # returns 10 to the power of 3 (exponent)
-x = 10
-x = x + 3 # returns 13
-x += 3 # augmented assignment operator (returns 13
+# print(10+3)
+# print(10/3) # returns decimal (3.3333333)
+# print(10//3) # returns a whole number (3)
+# print(10%3) # returns 1 remainder after dividing 10 by 3
+# print(10 ** 3) # returns 10 to the power of 3 (exponent)
+# x = 10
+# x = x + 3 # returns 13
+# x += 3 # augmented assignment operator (returns 13
+
+# 6 -- operator precedence. orders in which arithmetic are done
+# x = 10 + 3 * 2 # result is 16
+# print(x)
+# x = (10 + 3) * 2 # result is 26
+
+# 7 -- comparison operators
+# x = 3  != 2
+# # > >= < <= == !=
+# print(x)
+
+# 8 -- logical operators
+price = 25
+print(price > 10 and price < 30) # if the first and second expression are true it will return true
+print (price > 10 or price < 10 ) # if at least one of the two expressions are true then the result of the expression will be true
+print (not price > 30) # inverse the true
+# and (both) are true
+# or ( at least one is true)
+# not ( inverses the value given)
+
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
