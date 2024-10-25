@@ -4,9 +4,9 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# def print_hi(name):
+#     # Use a breakpoint in the code line below to debug your script.
+#     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
@@ -31,8 +31,17 @@ def print_hi(name):
 # print(age)
 # int(), float() bool() str() other type conversions
 # function adding two numbers.
-first_number = float(input("Enter first number: "))
-second_number = float(input("Enter second number: "))
-sum = first_number + second_number
-print("Result is: " + str(sum))
+# first_number = float(input("Enter first number: "))
+# second_number = float(input("Enter second number: "))
+# sum = first_number + second_number
+# print("Result is: " + str(sum))
+
+# 4 -- Strings
+course = "Python for Beginners"
+print(course.find('y'))
+print(course.upper())
+print(course.find('for'))
+print(course.replace('for', '4'))
+print('Python' in course)
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
