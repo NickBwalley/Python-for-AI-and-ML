@@ -114,14 +114,24 @@
 # print(names[0:3]) # prints 0, 1, 2 excluding a 3
 
 # 12 -- List methods.
+# numbers = [1, 2, 3, 4, 5]
+# numbers.append(6)
+# print(numbers)
+# numbers.insert(0,-1)
+# print(numbers)
+# # numbers.clear() #clears our list to empty
+# print(1 in numbers) # check if 1 is in the numbers returns BOOL
+# print(len(numbers))
+
+# 13 -- for loops
 numbers = [1, 2, 3, 4, 5]
-numbers.append(6)
-print(numbers)
-numbers.insert(0,-1)
-print(numbers)
-# numbers.clear() #clears our list to empty
-print(1 in numbers) # check if 1 is in the numbers returns BOOL
-print(len(numbers))
+for item in numbers:
+    print(item)
+
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i+=1
 
 
 
