@@ -37,11 +37,21 @@
 # print("Result is: " + str(sum))
 
 # 4 -- Strings
-course = "Python for Beginners"
-print(course.find('y'))
-print(course.upper())
-print(course.find('for'))
-print(course.replace('for', '4'))
-print('Python' in course)
+# course = "Python for Beginners"
+# print(course.find('y'))
+# print(course.upper())
+# print(course.find('for'))
+# print(course.replace('for', '4'))
+# print('Python' in course)
+
+# 5 -- arithmetic operators
+print(10+3)
+print(10/3) # returns decimal (3.3333333)
+print(10//3) # returns a whole number (3)
+print(10%3) # returns 1 remainder after dividing 10 by 3
+print(10 ** 3) # returns 10 to the power of 3 (exponent)
+x = 10
+x = x + 3 # returns 13
+x += 3 # augmented assignment operator (returns 13
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
