@@ -26,10 +26,13 @@ def print_hi(name):
 # print("Hello " + name)
 
 # 3 --  type conversion in python
-birth_year = input("Enter your birth year: ")
-
-age = 2024 - int(birth_year)
-print(age)
+# birth_year = input("Enter your birth year: ")
+# age = 2024 - int(birth_year)
+# print(age)
 # int(), float() bool() str() other type conversions
-
+# function adding two numbers.
+first_number = float(input("Enter first number: "))
+second_number = float(input("Enter second number: "))
+sum = first_number + second_number
+print("Result is: " + str(sum))
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
