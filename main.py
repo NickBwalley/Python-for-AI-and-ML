@@ -134,11 +134,13 @@
 #     i+=1
 
 # 14 -- The range() function
-numbers = range(5, 10) # 5, 6, 7, 8, 9
-numbers = range(5, 10, 2) # 5, 7, 9 jumps in two\s
-for number in numbers:
-    print(number)
+# numbers = range(5, 10) # 5, 6, 7, 8, 9
+# numbers = range(5, 10, 2) # 5, 7, 9 jumps in two\s
+# for number in numbers:
+#     print(number)
 
-
+# 15 -- Tuples in python. tuples are immutable can't be changed
+numbers = (1, 2, 3, 3)
+print(numbers.count(3)) # returns the count of 3's
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
