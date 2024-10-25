@@ -96,13 +96,22 @@
 #     print("weight in Kgs: " + str(converted))
 
 # 10 -- while loops
-i = 1
-while i <= 1_000: # instead of 1000 we put 1_000 to make the code more readable
-    print(i)
-    i+=1
-while i <= 10:
-    print(i * '*') # multiply with a string
-    i+=1
+# i = 1
+# while i <= 1_000: # instead of 1000 we put 1_000 to make the code more readable
+#     print(i)
+#     i+=1
+# while i <= 10:
+#     print(i * '*') # multiply with a string
+#     i+=1
+
+# 11 -- Lists
+names = ["John", "Bob", "Mosh", "Sam", "Nick"]
+print(names)
+print(names[0]) #prints the first item in the list
+print(names[-1]) #prints the last item in the list
+names[0] = "Johnny"
+print(names)
+print(names[0:3]) # prints 0, 1, 2 excluding a 3
 
 
 
