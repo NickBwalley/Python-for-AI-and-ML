@@ -21,4 +21,9 @@ first_name = "Nick" #string
 is_online = True #boolean
 print(age)
 
+# 2 -- using the input function in python
+name = input("What is your name? ")
+print("Hello " + name)
+
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
