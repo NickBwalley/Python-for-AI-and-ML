@@ -15,15 +15,21 @@ def print_hi(name):
 
 # CrashCourse
 # 1-- variables.
-age = 20 #integer
-price = 19.95 #float
-first_name = "Nick" #string
-is_online = True #boolean
-print(age)
+# age = 20 #integer
+# price = 19.95 #float
+# first_name = "Nick" #string
+# is_online = True #boolean
+# print(age)
 
 # 2 -- using the input function in python
-name = input("What is your name? ")
-print("Hello " + name)
+# name = input("What is your name? ")
+# print("Hello " + name)
 
+# 3 --  type conversion in python
+birth_year = input("Enter your birth year: ")
+
+age = 2024 - int(birth_year)
+print(age)
+# int(), float() bool() str() other type conversions
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
