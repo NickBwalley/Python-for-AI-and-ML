@@ -74,27 +74,35 @@
 # not ( inverses the value given)
 
  # 9 -- if statements.
-temperature = 25
-if temperature > 30:
-     print("It's a hot day")
-     print("Drink plenty of water")
-elif temperature > 20: # (20, 30)
-    print("It's a nice day!")
-elif temperature > 10: # (10, 20)
-    print("It's a bit cold")
-else:
-    print("It's cold")
+# temperature = 25
+# if temperature > 30:
+#      print("It's a hot day")
+#      print("Drink plenty of water")
+# elif temperature > 20: # (20, 30)
+#     print("It's a nice day!")
+# elif temperature > 10: # (10, 20)
+#     print("It's a bit cold")
+# else:
+#     print("It's cold")
+#
+# # Exercise for converting weight (lbs) to (kgs) and vice-versa
+# weight = float(input("Weight: "))
+# unit = input("(K)g or (L)bs:")
+# if unit.upper() == "K":
+#     converted = weight / 0.45
+#     print("Weight in Lbs: " + str(converted))
+# else:
+#     converted = weight * 0.45
+#     print("weight in Kgs: " + str(converted))
 
-# Exercise for converting weight (lbs) to (kgs) and vice-versa
-weight = float(input("Weight: "))
-unit = input("(K)g or (L)bs:")
-if unit.upper() == "K":
-    converted = weight / 0.45
-    print("Weight in Lbs: " + str(converted))
-else:
-    converted = weight * 0.45
-    print("weight in Kgs: " + str(converted))
-
+# 10 -- while loops
+i = 1
+while i <= 1_000: # instead of 1000 we put 1_000 to make the code more readable
+    print(i)
+    i+=1
+while i <= 10:
+    print(i * '*') # multiply with a string
+    i+=1
 
 
 
