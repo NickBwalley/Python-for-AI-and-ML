@@ -105,14 +105,23 @@
 #     i+=1
 
 # 11 -- Lists
-names = ["John", "Bob", "Mosh", "Sam", "Nick"]
-print(names)
-print(names[0]) #prints the first item in the list
-print(names[-1]) #prints the last item in the list
-names[0] = "Johnny"
-print(names)
-print(names[0:3]) # prints 0, 1, 2 excluding a 3
+# names = ["John", "Bob", "Mosh", "Sam", "Nick"]
+# print(names)
+# print(names[0]) #prints the first item in the list
+# print(names[-1]) #prints the last item in the list
+# names[0] = "Johnny"
+# print(names)
+# print(names[0:3]) # prints 0, 1, 2 excluding a 3
 
+# 12 -- List methods.
+numbers = [1, 2, 3, 4, 5]
+numbers.append(6)
+print(numbers)
+numbers.insert(0,-1)
+print(numbers)
+# numbers.clear() #clears our list to empty
+print(1 in numbers) # check if 1 is in the numbers returns BOOL
+print(len(numbers))
 
 
 
